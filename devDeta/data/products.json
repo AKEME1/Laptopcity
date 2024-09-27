@@ -1,0 +1,62 @@
+[
+  {
+    "brand": "Apple",
+    "model": "MacBook Pro 16\" 2023",
+    "price": 2499,
+    "description": "A high-performance laptop with M2 Max chip designed for professionals.",
+    "specifications": {
+      "processor": "Apple M2 Max",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "display": "16-inch Retina, 3072x1920",
+      "gpu": "Apple 38-core GPU",
+      "batteryLife": "22 hours",
+      "weight": "2.0 kg",
+      "os": "macOS",
+      "ports": ["USB-C Thunderbolt", "HDMI", "SDXC"],
+      "warranty": "2 years"
+    },
+    "stock": 50,
+    "createdAt": "2024-09-25T08:00:00.000Z"
+  },
+  {
+    "brand": "Dell",
+    "model": "XPS 13 9310",
+    "price": 1199,
+    "description": "Ultra-slim laptop with InfinityEdge display and 11th Gen Intel processors.",
+    "specifications": {
+      "processor": "Intel Core i7-1185G7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.4-inch FHD+, 1920x1200",
+      "gpu": "Integrated",
+      "batteryLife": "14 hours",
+      "weight": "1.2 kg",
+      "os": "Windows",
+      "ports": ["2x Thunderbolt 4", "USB-C", "MicroSD"],
+      "warranty": "1 year"
+    },
+    "stock": 75,
+    "createdAt": "2024-09-25T08:30:00.000Z"
+  },
+  {
+    "brand": "HP",
+    "model": "Spectre x360 14",
+    "price": 1399,
+    "description": "Convertible laptop with stunning OLED display and 11th Gen Intel processors.",
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "13.5-inch OLED, 3000x2000",
+      "gpu": "Intel Iris Xe",
+      "batteryLife": "16 hours",
+      "weight": "1.36 kg",
+      "os": "Windows",
+      "ports": ["2x USB-C Thunderbolt", "USB-A", "MicroSD"],
+      "warranty": "2 years"
+    },
+    "stock": 30,
+    "createdAt": "2024-09-25T09:00:00.000Z"
+  }
+]
