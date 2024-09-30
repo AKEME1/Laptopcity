@@ -1,62 +1,402 @@
 [
   {
     "brand": "Apple",
-    "model": "MacBook Pro 16\" 2023",
-    "price": 2499,
-    "description": "A high-performance laptop with M2 Max chip designed for professionals.",
-    "specifications": {
-      "processor": "Apple M2 Max",
-      "ram": "32GB",
-      "storage": "1TB SSD",
-      "display": "16-inch Retina, 3072x1920",
-      "gpu": "Apple 38-core GPU",
-      "batteryLife": "22 hours",
-      "weight": "2.0 kg",
-      "os": "macOS",
-      "ports": ["USB-C Thunderbolt", "HDMI", "SDXC"],
-      "warranty": "2 years"
-    },
-    "stock": 50,
-    "createdAt": "2024-09-25T08:00:00.000Z"
-  },
-  {
-    "brand": "Dell",
-    "model": "XPS 13 9310",
-    "price": 1199,
-    "description": "Ultra-slim laptop with InfinityEdge display and 11th Gen Intel processors.",
-    "specifications": {
-      "processor": "Intel Core i7-1185G7",
-      "ram": "16GB",
-      "storage": "512GB SSD",
-      "display": "13.4-inch FHD+, 1920x1200",
-      "gpu": "Integrated",
-      "batteryLife": "14 hours",
-      "weight": "1.2 kg",
-      "os": "Windows",
-      "ports": ["2x Thunderbolt 4", "USB-C", "MicroSD"],
-      "warranty": "1 year"
-    },
-    "stock": 75,
-    "createdAt": "2024-09-25T08:30:00.000Z"
-  },
-  {
-    "brand": "HP",
-    "model": "Spectre x360 14",
-    "price": 1399,
-    "description": "Convertible laptop with stunning OLED display and 11th Gen Intel processors.",
+    "model": "Wait Political",
+    "price": 1917,
+    "description": "Nation treatment around group moment site several scientist suggest.",
     "specifications": {
       "processor": "Intel Core i7-1165G7",
       "ram": "16GB",
       "storage": "1TB SSD",
-      "display": "13.5-inch OLED, 3000x2000",
+      "display": "13.3-inch Retina, 2560x1600",
       "gpu": "Intel Iris Xe",
       "batteryLife": "16 hours",
-      "weight": "1.36 kg",
-      "os": "Windows",
-      "ports": ["2x USB-C Thunderbolt", "USB-A", "MicroSD"],
+      "weight": "2.03 kg",
+      "os": "Linux",
+      "ports": ["MicroSD", "USB-C"],
       "warranty": "2 years"
     },
+    "stock": 11,
+    "createdAt": "2024-09-30T11:18:35.726032Z"
+  },
+  {
+    "brand": "HP",
+    "model": "Water Attorney",
+    "price": 1887,
+    "description": "Measure its build office suffer rock real glass center mention remain whether much both.",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800H",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "14-inch OLED, 2880x1800",
+      "gpu": "Integrated",
+      "batteryLife": "10 hours",
+      "weight": "2.20 kg",
+      "os": "Linux",
+      "ports": ["3.5mm Jack", "Ethernet", "USB-C", "MicroSD"],
+      "warranty": "1 years"
+    },
+    "stock": 39,
+    "createdAt": "2024-09-30T11:18:35.726133Z"
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Economy Reflect",
+    "price": 1374,
+    "description": "Help century side suddenly huge no meet once.",
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "NVIDIA GeForce MX450",
+      "batteryLife": "12 hours",
+      "weight": "1.32 kg",
+      "os": "Linux",
+      "ports": ["MicroSD", "HDMI"],
+      "warranty": "1 years"
+    },
     "stock": 30,
-    "createdAt": "2024-09-25T09:00:00.000Z"
+    "createdAt": "2024-09-30T11:18:35.726185Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "If Meet",
+    "price": 1931,
+    "description": "Manager training believe leg traditional boy price feel base wall writer.",
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "Intel Iris Xe",
+      "batteryLife": "18 hours",
+      "weight": "1.66 kg",
+      "os": "macOS",
+      "ports": ["USB-C", "MicroSD", "3.5mm Jack", "HDMI"],
+      "warranty": "3 years"
+    },
+    "stock": 42,
+    "createdAt": "2024-09-30T11:18:35.726237Z"
+  },
+  {
+    "brand": "HP",
+    "model": "Shake Stuff",
+    "price": 2365,
+    "description": "Leg team identify threat painting glass kid build market certain hope son sound support adult.",
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch FHD, 1920x1080",
+      "gpu": "AMD Radeon",
+      "batteryLife": "11 hours",
+      "weight": "1.84 kg",
+      "os": "Windows",
+      "ports": ["USB-A", "USB-C", "MicroSD", "Ethernet"],
+      "warranty": "1 years"
+    },
+    "stock": 30,
+    "createdAt": "2024-09-30T11:18:35.726296Z"
+  },
+  {
+    "brand": "Dell",
+    "model": "Store Drop",
+    "price": 2101,
+    "description": "Tonight stand check evidence risk according seven.",
+    "specifications": {
+      "processor": "Intel Core i7-1165G7",
+      "ram": "32GB",
+      "storage": "256GB SSD",
+      "display": "14-inch OLED, 2880x1800",
+      "gpu": "NVIDIA GeForce MX450",
+      "batteryLife": "12 hours",
+      "weight": "1.37 kg",
+      "os": "Windows",
+      "ports": ["USB-A", "MicroSD"],
+      "warranty": "1 years"
+    },
+    "stock": 49,
+    "createdAt": "2024-09-30T11:18:35.726349Z"
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Church Rather",
+    "price": 1504,
+    "description": "Class significant media movie magazine write hold most class conference leave number either its value student.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD, 1920x1080",
+      "gpu": "Integrated",
+      "batteryLife": "8 hours",
+      "weight": "1.30 kg",
+      "os": "macOS",
+      "ports": ["Ethernet", "USB-C", "HDMI", "3.5mm Jack"],
+      "warranty": "2 years"
+    },
+    "stock": 34,
+    "createdAt": "2024-09-30T11:18:35.726420Z"
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Training Out",
+    "price": 1227,
+    "description": "Radio area civil single current meet business.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "AMD Radeon",
+      "batteryLife": "8 hours",
+      "weight": "1.13 kg",
+      "os": "Linux",
+      "ports": ["USB-C", "MicroSD"],
+      "warranty": "3 years"
+    },
+    "stock": 32,
+    "createdAt": "2024-09-30T11:18:35.726480Z"
+  },
+  {
+    "brand": "Asus",
+    "model": "Offer Hear",
+    "price": 1035,
+    "description": "Market speak unit know of research win or exist create author truth skin fire.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "14-inch OLED, 2880x1800",
+      "gpu": "Integrated",
+      "batteryLife": "9 hours",
+      "weight": "1.86 kg",
+      "os": "Linux",
+      "ports": ["3.5mm Jack", "Ethernet", "USB-C"],
+      "warranty": "2 years"
+    },
+    "stock": 48,
+    "createdAt": "2024-09-30T11:18:35.726536Z"
+  },
+  {
+    "brand": "Asus",
+    "model": "Pull Simply",
+    "price": 2117,
+    "description": "As office great life travel can culture camera.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "32GB",
+      "storage": "256GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "Intel Iris Xe",
+      "batteryLife": "9 hours",
+      "weight": "1.68 kg",
+      "os": "Windows",
+      "ports": ["USB-A", "Ethernet", "USB-C"],
+      "warranty": "3 years"
+    },
+    "stock": 22,
+    "createdAt": "2024-09-30T11:18:35.726724Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "Agent Pull",
+    "price": 2373,
+    "description": "First them anything team challenge table standard find necessary situation work tonight better gun pick big.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD, 1920x1080",
+      "gpu": "AMD Radeon",
+      "batteryLife": "8 hours",
+      "weight": "1.85 kg",
+      "os": "Linux",
+      "ports": ["MicroSD", "Ethernet"],
+      "warranty": "1 years"
+    },
+    "stock": 38,
+    "createdAt": "2024-09-30T11:18:35.726800Z"
+  },
+  {
+    "brand": "Dell",
+    "model": "Billion Although",
+    "price": 921,
+    "description": "Test management son ready brother condition hand audience rich anyone nice plan shoulder art.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "32GB",
+      "storage": "256GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "AMD Radeon",
+      "batteryLife": "16 hours",
+      "weight": "2.10 kg",
+      "os": "Windows",
+      "ports": ["USB-C", "USB-A"],
+      "warranty": "3 years"
+    },
+    "stock": 16,
+    "createdAt": "2024-09-30T11:18:35.726849Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "Relationship Newspaper",
+    "price": 1286,
+    "description": "Congress worker society culture blue sing cell increase.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "15.6-inch FHD, 1920x1080",
+      "gpu": "AMD Radeon",
+      "batteryLife": "19 hours",
+      "weight": "1.23 kg",
+      "os": "Linux",
+      "ports": ["USB-C", "USB-A", "MicroSD"],
+      "warranty": "2 years"
+    },
+    "stock": 29,
+    "createdAt": "2024-09-30T11:18:35.726893Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "Democrat Fund",
+    "price": 883,
+    "description": "Near have man early just know century play.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "AMD Radeon",
+      "batteryLife": "11 hours",
+      "weight": "1.64 kg",
+      "os": "Windows",
+      "ports": ["USB-C", "HDMI", "USB-A"],
+      "warranty": "3 years"
+    },
+    "stock": 33,
+    "createdAt": "2024-09-30T11:18:35.726931Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "Age Strategy",
+    "price": 1290,
+    "description": "Address well within across economic far scientist of recently improve dark including.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "32GB",
+      "storage": "512GB SSD",
+      "display": "13.3-inch Retina, 2560x1600",
+      "gpu": "Integrated",
+      "batteryLife": "8 hours",
+      "weight": "2.15 kg",
+      "os": "Linux",
+      "ports": ["Ethernet", "USB-C", "MicroSD", "HDMI"],
+      "warranty": "2 years"
+    },
+    "stock": 48,
+    "createdAt": "2024-09-30T11:18:35.726980Z"
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Quality Especially",
+    "price": 978,
+    "description": "Final car suggest movement it after soldier particular nearly run Democrat way either.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "8GB",
+      "storage": "1TB SSD",
+      "display": "15.6-inch FHD, 1920x1080",
+      "gpu": "Intel Iris Xe",
+      "batteryLife": "9 hours",
+      "weight": "1.90 kg",
+      "os": "Windows",
+      "ports": ["USB-C", "Ethernet", "3.5mm Jack"],
+      "warranty": "3 years"
+    },
+    "stock": 30,
+    "createdAt": "2024-09-30T11:18:35.727034Z"
+  },
+  {
+    "brand": "Dell",
+    "model": "Join Impact",
+    "price": 1426,
+    "description": "Everything pull change everybody alone glass fall speak.",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5800H",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "display": "13.3-inch Retina, 2560x1600",
+      "gpu": "Integrated",
+      "batteryLife": "8 hours",
+      "weight": "1.05 kg",
+      "os": "macOS",
+      "ports": ["MicroSD", "HDMI"],
+      "warranty": "3 years"
+    },
+    "stock": 24,
+    "createdAt": "2024-09-30T11:18:35.727094Z"
+  },
+  {
+    "brand": "Apple",
+    "model": "Last Rest",
+    "price": 1139,
+    "description": "Measure beyond enter contain travel doctor each investment through task chance.",
+    "specifications": {
+      "processor": "Apple M1",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "14-inch OLED, 2880x1800",
+      "gpu": "Integrated",
+      "batteryLife": "11 hours",
+      "weight": "1.10 kg",
+      "os": "Linux",
+      "ports": ["MicroSD", "USB-C", "USB-A"],
+      "warranty": "3 years"
+    },
+    "stock": 22,
+    "createdAt": "2024-09-30T11:18:35.727141Z"
+  },
+  {
+    "brand": "HP",
+    "model": "As Staff",
+    "price": 982,
+    "description": "Mention try state what city front century pretty executive water bag.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "17.3-inch 4K UHD, 3840x2160",
+      "gpu": "Integrated",
+      "batteryLife": "15 hours",
+      "weight": "2.30 kg",
+      "os": "Linux",
+      "ports": ["HDMI", "3.5mm Jack", "Ethernet"],
+      "warranty": "1 years"
+    },
+    "stock": 20,
+    "createdAt": "2024-09-30T11:18:35.727190Z"
+  },
+  {
+    "brand": "HP",
+    "model": "Indeed Real",
+    "price": 2191,
+    "description": "Deal face audience strategy trial almost responsibility manage bad reflect boy choice.",
+    "specifications": {
+      "processor": "Intel Core i5-1135G7",
+      "ram": "16GB",
+      "storage": "256GB SSD",
+      "display": "14-inch OLED, 2880x1800",
+      "gpu": "Integrated",
+      "batteryLife": "14 hours",
+      "weight": "1.61 kg",
+      "os": "macOS",
+      "ports": ["Ethernet", "USB-A"],
+      "warranty": "1 years"
+    },
+    "stock": 34,
+    "createdAt": "2024-09-30T11:18:35.727236Z"
   }
 ]

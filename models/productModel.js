@@ -1,30 +1,30 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema({
   brand: {
     type: String,
     enum: [
-      "Apple",
-      "Dell",
-      "HP",
-      "Lenovo",
-      "ASUS",
-      "Acer",
-      "Microsoft",
-      "Razer",
-      "MSI",
-      "Samsung",
-      "Toshiba",
-      "LG",
-      "Huawei",
-      "Gigabyte",
-      "VAIO",
+      'Apple',
+      'Dell',
+      'HP',
+      'Lenovo',
+      'Asus',
+      'Acer',
+      'Microsoft',
+      'Razer',
+      'MSI',
+      'Samsung',
+      'Toshiba',
+      'LG',
+      'Huawei',
+      'Gigabyte',
+      'VAIO',
     ],
-    require: [true, "A product must have brand name"],
+    require: [true, 'A product must have brand name'],
   },
   model: {
     type: String,
-    require: [true, "A product must model name"],
+    require: [true, 'A product must model name'],
   },
   price: {
     type: Number,
@@ -53,18 +53,18 @@ const productSchema = new mongoose.Schema({
     },
     gpu: {
       type: String,
-      default: "Integrated", // Not all laptops have dedicated GPUs
+      default: 'Integrated', // Not all laptops have dedicated GPUs
     },
     batteryLife: String,
     weight: String,
     os: {
       type: String,
-      enum: ["Windows", "macOS", "Linux", "Chrome OS"],
+      enum: ['Windows', 'macOS', 'Linux', 'Chrome OS'],
     },
     ports: [String], // e.g. ['USB-C', 'HDMI', 'Ethernet']
     warranty: {
       type: String,
-      default: "1 year",
+      default: '1 year',
     },
   },
   stock: {
@@ -77,5 +77,5 @@ const productSchema = new mongoose.Schema({
   },
 });
 
-const Product = mongoose.model("Product", productSchema);
+const Product = mongoose.model('Product', productSchema);
 module.exports = Product;
