@@ -4,6 +4,12 @@ const AppError = require('../utils/appErorr');
 const JWT = require('jsonwebtoken');
 const catchAsync = require('../utils/catchAsync');
 
+const createToken = (id) => {
+  return JWT.sign({ id }, process.env.JWT_SECRET, {
+    expiresIn: process.env.JWT_EXPIRES_IN,
+  });
+};
+
 exports.protect = catchAsync(async (req, res, next) => {
   let token;
   if (
@@ -46,20 +52,20 @@ exports.protect = catchAsync(async (req, res, next) => {
 });
 
 exports.restrictTo = (role) => {
-  return catchAsync((req, res, next) => {
-    if ((role = req.role)) {
+  return (req, res, next) => {
+    const userRole = req.user.role;
+    if (userRole === role) {
       next();
     }
-    next(new AppError('You are not authorize for this service', 403));
-  });
+
+    next(new AppError('You are not authorized for this service', 403));
+  };
 };
 
 exports.signin = catchAsync(async (req, res, next) => {
   const user = await User.create(req.body);
 
-  const token = JWT.sign({ id: user.id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN,
-  });
+  const token = createToken(user.id);
 
   res.status(200).json({
     status: 'success',
@@ -81,9 +87,7 @@ exports.login = catchAsync(async (req, res, next) => {
   if (!user || (await !user.correctPassword(password, user.id))) {
     return next(new AppError('Incorrect email or password', 401));
   }
-  const token = JWT.sign({ id: user.id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN,
-  });
+  const token = createToken(user.id);
   res.status(200).json({
     status: 'sucess',
     data: {
