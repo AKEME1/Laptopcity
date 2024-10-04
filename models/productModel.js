@@ -71,11 +71,16 @@ const productSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  images: [String], // Corrected from imagies to images
   createdAt: {
     type: Date,
     default: Date.now,
   },
 });
 
+productSchema.index(
+  { brand: 1, model: 1, specifications: 1 },
+  { unique: true }
+);
 const Product = mongoose.model('Product', productSchema);
 module.exports = Product;

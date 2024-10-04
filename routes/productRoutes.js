@@ -7,10 +7,15 @@ router
   .route('/top-5-cheap')
   .get(productControllers.topProduct, productControllers.getAllProducts);
 
+// router.route('/uploadImage').post(productControllers.imageProcess);
 router
   .route('/')
   .get(authControllers.protect, productControllers.getAllProducts)
-  .post(productControllers.createOne);
+  .post(
+    productControllers.imageProcess,
+    productControllers.UploadImages,
+    productControllers.createOne
+  );
 
 router
   .route('/:ID')

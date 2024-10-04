@@ -1,12 +1,24 @@
+const JWT = require('jsonwebtoken');
 const { promisify } = require('util');
 const User = require('../models/userModel');
 const AppError = require('../utils/appErorr');
-const JWT = require('jsonwebtoken');
 const catchAsync = require('../utils/catchAsync');
+const Email = require('../utils/email');
 
 const createToken = (id) => {
   return JWT.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
+  });
+};
+
+const createSendToken = (user, statusCode, res) => {
+  const token = createToken(user.id);
+  res.status(200).json({
+    status: 'success',
+    data: {
+      data: user,
+    },
+    token: token,
   });
 };
 
@@ -64,16 +76,9 @@ exports.restrictTo = (role) => {
 
 exports.signin = catchAsync(async (req, res, next) => {
   const user = await User.create(req.body);
+  await new Email(user).sendWelcome();
 
-  const token = createToken(user.id);
-
-  res.status(200).json({
-    status: 'success',
-    data: {
-      data: user,
-    },
-    token: token,
-  });
+  createSendToken(user, 201, res);
 });
 
 exports.login = catchAsync(async (req, res, next) => {
